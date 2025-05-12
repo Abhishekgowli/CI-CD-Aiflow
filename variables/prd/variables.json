@@ -1,0 +1,11 @@
+{
+    "env": "prod",
+    "gcs_bucket": "airflow-project-cicd-airlines",
+    "bq_project": "ambient-glazing-458603-k8",
+    "bq_dataset": "Fight_database_prd",
+    "tables": {
+      "transformed_table": "transformed_flight_data_prod",
+      "route_insights_table": "route_insights_prod",
+      "origin_insights_table": "origin_insights_prod"
+    }
+  }
